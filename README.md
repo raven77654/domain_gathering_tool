@@ -19,3 +19,62 @@ Scan for open ports using Nmap
 # License
 
 This project is licensed under the MIT License.
+
+## Adding Path
+Check your shell and with command 
+```bash
+echo $0
+
+```
+Edit .bashrc or zshrc 
+
+
+```bash
+nano ~/.bashrc
+
+```
+
+```bash
+nano ~/.zshrc
+
+```
+Add path in the last of the file.
+
+```bash
+export PATH=$PATH:/home/(use your username here)/.local/bin
+
+```
+After adding the path and installation is done close the previous terminal and open new one to try this tool.
+
+
+## How to Install
+
+```bash
+https://github.com/raven77654/domain_gathering_tool.git
+
+```
+Go to the same directory where you clone the tool and type
+
+```bash
+pip install . 
+
+```
+After completing the installtion you need to type in your terminal  
+
+ 
+```bash
+python3 -m domain_gathering_tool
+
+```
+Or You Can Type 
+
+```bash
+python3 -m domain_gathering_tool example.com
+```
+
+
+## How to uninstall the tool 
+```bash
+pip uninstall domain_gathering_tool
+
+```
