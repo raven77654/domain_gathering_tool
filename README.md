@@ -63,18 +63,18 @@ After completing the installtion you need to type in your terminal
 
  
 ```bash
-python3 -m domain_gathering_tool
+python3 -m projectdomain
 
 ```
 Or You Can Type 
 
 ```bash
-python3 -m domain_gathering_tool example.com
+python3 -m projectdomain example.com
 ```
 
 
 ## How to uninstall the tool 
 ```bash
-pip uninstall domain_gathering_tool
+pip uninstall projectdomain
 
 ```
