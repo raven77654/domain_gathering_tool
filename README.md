@@ -1,4 +1,4 @@
-# domain_gathering_tool
+# domain_inspector
 A Simple Domain Information Gathering Tool.
 
 You'll be prompted to enter a domain, and the tool will display information about the domain.
